@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jake Chappell's Portfolio</title>
+        <link href="tailwind.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-body text-white font-poppins pb-12">
+
+
+        <!-- NAVBAR -->
+        <header class="py-6">
+            <div id="home" class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+                <div class="text-lg font-bold">Jake Chappell</div>
+                <div class="hidden md:flex space-x-12 items-center">
+                    <a href="#" class="text-selected-text">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact Info</a>
+                </div>
+                <div class="md:hidden">
+                    <svg width="26" height="18" viewbox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.41672M25.75 3.33333H13V0.5H29.75V3.3333Z" fill="white"/></svg>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- PICTURE SECTION -->
+        <div class="container mt-16 flex justify-between content-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="flex flex-wrap md:flex-nowrap">
+                <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                    <div class="absolute left-90 transform -translate-x-1/2 space-y-6 mt-37">
+                        <a href="#home" class="nav-dot hover:border-theme hover:bg-theme block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                        </a>
+                        <a href="#skills" class="nav-dot hover:border-theme hover:bg-theme block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
+                        </a>
+                        <a href="#projects" class="nav-dot hover:border-theme hover:bg-theme block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                        </a>
+                        <a href="#education" class="nav-dot hover:border-theme hover:bg-theme block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Education</span>
+                        </a>
+                        <a href="#contact" class="nav-dot hover:border-theme hover:bg-theme block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Email</span>
+                        </a>
+                    </div>
+                </nav>
+
+                <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                    <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Software<br> Engineer/<br>Web<br> Developer</h1>
+                    <div class="w-full flex justify-center md:justify-start">
+                        <a href="#skills" class="px-9 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">Skills</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="img/laptopSelfie1.jpg" alt="me" class="relative w-9/10 md:w-2/5 md:absolute mt-3 md:mt-0 right-0 md:right-10 rounded-full shadow-sm">
+            </div>
+        </div>
+
+
+        <!-- SKILLS -->
+        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <section class="w-full">
+                <h2 id="skills" class="secondary-title">Skills</h2>
+                <p class="section-paragraph">I've learned many different skills from both my education and my independent study.</p>
+                <div class="grid grid-cols-2 grid-rows-3 sm:space-x-5">
+                    <div class="col-span-1 row-span-1 pb-10">
+                        <h1 class="tertiary-title">Frameworks</h1>
+                        <div class="grid grid-cols-2 text-sm md:text-base">
+                            <div class="col-span-1">
+                                <ul class="pl-0 md:pl-10 list-disc">
+                                    <li>ASP.NET</li>
+                                    <li>ASP.NET Web API</li>
+                                    <li>ASP.NET Web MVC</li>
+                                    <li>Vue.js</li>
+                                    <li>Svelte</li>
+                                </ul>
+                            </div>
+                            <div class="col-span-1">
+                                <ul class="pl-5 md:pl-0 list-disc">
+                                    <li>Next.js</li>
+                                    <li>Node</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 row-span-1 pb-10">
+                        <h1 class="tertiary-title">Core Competencies</h1>
+                        <div class="grid grid-cols-2 text-sm md:text-base">
+                            <div class="col-span-1">
+                                <ul class="pl-0 md:pl-10 list-disc">
+                                    <li>Software Development</li>
+                                    <li>Software Engineering</li>
+                                    <li>Front-end Development</li>
+                                    <li>Back-end Development</li>
+                                    <li>Project Lifecycle Management</li>
+                                </ul>
+                            </div>
+                            <div class="col-span-1">
+                                <ul class="pl-5 md:pl-0 list-disc">
+                                    <li>Agile Product Delivery</li>
+                                    <li>Key Relationship Building</li>
+                                    <li>UI Design, API Usage & Development</li>
+                                    <li>Communication</li>
+                                    <li>Problem Sovling & Analytical Skills</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 row-span-1 pb-10">
+                        <h1 class="tertiary-title">Languages</h1>
+                        <div class="grid grid-cols-2 text-sm md:text-base">
+                            <div class="col-span-1">
+                                <ul class="pl-0 md:pl-10 list-disc">
+                                    <li>C#</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>Less</li>
+                                </ul>
+                            </div>
+                            <div class="col-span-1">
+                                <ul class="pl-5 md:pl-0 list-disc">
+                                    <li>SQL</li>
+                                    <li>Java</li>
+                                    <li>C</li>
+                                    <li>Ruby</li>
+                                    <li>Python</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 row-span-1 pb-10">
+                        <h1 class="tertiary-title">Soft Skills</h1>
+                        <ul class="pl-0 md:pl-10 list-disc text-sm md:text-base">
+                            <li>Problem Sovling</li>
+                            <li>Interpersonal Communication</li>
+                            <li>Client Communication</li>
+                            <li>Business Analytics</li>
+                            <li>Teamwork & Collaboration</li>
+                        </ul>
+                    </div>
+                    <div class="col-span-1 row-span-1 pb-10">
+                        <h1 class="tertiary-title">Software/Tools</h1>
+                        <div class="grid grid-cols-2 text-sm md:text-base">
+                            <div class="col-span-1">
+                                <ul class="pl-0 md:pl-10 list-disc">
+                                    <li>REST</li>
+                                    <li>Microsoft SQL Server</li>
+                                    <li>MySQL</li>
+                                    <li>Github</li>
+                                    <li>Bitbucked</li>
+                                </ul>
+                            </div>
+                            <div class="col-span-1">
+                                <ul class="pl-5 md:pl-0 list-disc">
+                                    <li>Pandas</li>
+                                    <li>Hadoop</li>
+                                    <li>VS Code</li>
+                                    <li>Visual Studio</li>
+                                    <li>JetBrains Intellij/Rider</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 row-span-1 pb-10">
+                        <h1 class="tertiary-title">Tools</h1>
+                        <ul class="pl-0 md:pl-10 list-disc text-sm md:text-base">
+                            <li>Microsoft Office 365</li>
+                            <li>Adobe Premiere</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- PROJECTS -->
+        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <section class="w-full">
+                <h2 id="projects" class="secondary-title">Projects</h2>
+                <p class="section-paragraph">I've done many projects in my education career, and from each have learned different areas of software development.</p>
+                <h2 class="tertiary-title">Capstone Project</h2><br>
+                <div class="grid grid-cols-2">
+                    <div class="col-span-1 pr-5">
+                        <p>Completed in association with Accutech Systems Corporation. The project involves making web-based documentation for the API of Accutech's flagship product, Cheetah, a wealth management app. The Cheetah API was continuously growing in users and because Accutech's only documentation for this app was through swagger, they sought out my team and I to build them concise and dev-readable documentation to make the API more approachable and easier to interact with.</p><br>
+                        <p><strong>Front-end:</strong> Vue.js</p>
+                        <p><strong>Back-end:</strong> ASP.Net MVC Web API</p><br>
+                        <p>To see the project source code and documentation, click <a class="text-blue-500 hover:underline" href="https://github.com/astafford2/Web-based-API-Simulator-Developer-Portal">here</a></p>
+                    </div>
+                    <div class="col-span-1">
+                        <img src="img/capstonePic.PNG" class="rounded-lg">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- EDUCATION -->
+        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <section class="w-full">
+                <h2 id="education" class="secondary-title">Education</h2>
+                <p class="section-paragraph">I've recently aquired a bachelor's degree in Computer Science. I'm very much looking forward to joining the workforce as a professional developer.</p>
+                <div class="text-center">
+                    <h2 class="text-2xl font-bold underline">Ball State University</h2><br>
+                    <h3 class="text-lg"><strong>Degree:</strong> Bachelor's in Computer Science (B.S.)</h3><br>
+                    <p><strong>Overall GPA:</strong> 3.7</p><br>
+                    <p><strong>Graduated:</strong> May 2022</p><br>
+                    <p><strong>Courses:</strong><br>Software Engineering, Design and Analysis of Algorithms, Computer Networks, Database Design<br>Operating Systems, Theory of Computation, Programming Languages<br>Web Programming, Data Analytics, Network Security</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="container mt-64 mb-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <section class="w-full">
+                <h2 id="contact" class="secondary-title">Contact Info</h2>
+                <p class="section-paragraph">If you wish to contact me, please feel free to send me an email or message on LinkedIn</p>
+                <h2 class="tertiary-title">Email:</h2>
+                <p class="pl-5">jakechappell23@gmail.com</p><br>
+                <h2 class="tertiary-title">LinkedIn</h2>
+                <p class="pl-5">linkedin.com/in/jacob-chappell23</p>
+            </section>
+        </div>
+    </body>
+</html>
